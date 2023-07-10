@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.banner{
+    background-image: url('images/banner/banner2.png');
+    width: 225vh;
+    height:120vh;
+}
+.banner-cont{
+    text-align: right;
+    
+    padding: 200px 180px;
+}
+.bannerhead{
+    font-size: 65px;
+font-weight: 700;
+margin: 20px; 
+}
+.bannerdesc{
+    color: var(--dark-02, #444343);
+font-size: 16px;
+font-weight: 400; 
+margin: 30px;
+}
+.bannerbtn{
+    width: 160px;
+height: 64px; 
+border-radius: 5px; 
+background-color: #F15B22;
+color: white;
+font-size: 20px;
+font-weight: 600; 
+border: none;
+margin-right: 26px;
+}
+/* previous container */
+.prevcont{
+    display: flex;
+    align-items: center;
+    gap: 230px;
+    position: relative;
+}
+.bedirchobi{
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.bedi{
+    height: 500px;
+    width: 400px;
+    color: #F15B22;
+    /* background-blend-mode: ; */
+}
+.failhead{
+    font-size: 40px;
+font-weight: 700; 
+margin-top: 150px;
+}
+.faildesc{
+    font-size: 16px;
+font-weight: 400; 
+margin: 20px 0px;
+}
+.list{
+   list-style: none;
+}
+/* my plan section */
+
+.planhead{
+    font-size: 40px;
+font-weight: 700; 
+text-align: center;
+margin-top:100px;
+}
+.planlogos{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+.websmoke{
+    margin-left: 25px;
+}
+h3{
+    margin: 10px;
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+
+
+
+.piccont{
+    background-image:url('images/gradient2.png'), url('images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 100px;
+}
+.piccontainer{
+    display: flex;
+    align-items:center;
+    padding-top: 20px;
+}
+.pictext{
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 140px;
+    color: white;
+    /* margin-top: 30px; */
+    
+}
+.picbtn{
+    width: 140px;
+height: 55px;
+border-radius: 5px; 
+color: #F15B22;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+margin-left: 140px; 
+margin-top: 20px;
+}
